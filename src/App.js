@@ -1,12 +1,10 @@
-// import './App.css';
-import Loading from './Components/loading/Loading';
+import './App.css';
+import EmployeeList from './Components/employees/EmployeeList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Loading />
-      </header>
+    <div className="App ">
+      <EmployeeList />
     </div>
   );
 }
